@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url("font-awesome.min.css");
+
+body {
+  /* font-family:  */
+}
+
+.maru {
+  width: 3vh;
+  height: 3vh;
+  border-radius: 100%;
+  display:inline-block;
+  margin-right:2vh;
+  opacity: 0.6;
+}
+
+.playerskin {
+
+  /* margin: 0vh 2vh -4.7vh 2vh; */
+  width: 45px;
+  height: auto;
+  border-radius: 8%;
+}
+
+.playername {
+  opacity: 0.9;
+  color: white;
+  font-size: 1vh;
+  line-height: 1.65;
+  /* margin-top: -6vh; */
+  /* line-height: 10vh; */
+  margin-top: -10px;
+  display: block;
+}
+
+.skintoname {
+   margin: 6px 0;
+   display:block;
+   /* width: 100px; */
+   min-width: 80px;
+   padding: 0 4px;
+}
+
+.allskins {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.status {
+  font-size: 5.5vh;
+  opacity: 0.8;
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: none;
+  margin: -25vh 0 -5vh 0;
+  line-height: 1.5vh
+}
+
+.players {
+  font-size: 4vh;
+  letter-spacing: 0.2vh;
+  text-shadow: none;
+  opacity: 0.8;
+  line-height: 4vh;
+  /* margin: -10vh 0 -4vh 0; */
+}
+
+table {
+
+}
+
+.server_address {
+  font-size: 68px;
+  text-align: center;
+}
+
+table th,td {
+  border: 1px solid rgb(122, 122, 122);
+  padding: 5px 2px;
+}
+
+table th {
+  white-space: nowrap;
+  /* width: 200px; */
+}
+
+@media screen and (max-width: 480px) {
+  .playername {
+    font-size: 8px;
+    margin-top: -10px;
+    line-height: 2.5;
+  }
+
+  .playerskin {
+    width: 35px;
+  }
+
+  .skintoname {
+    min-width: 60px;
+  }
+
+  .players {
+  }
+
+  .allskins {
+  }
+
+  .server_address {
+    font-size: 200%;
+  }
+}
+
+
+.rule{
+  list-style: circle;
+  text-align:left;
+}
+
+ul.rule li {
+  margin-bottom: 2vh;
+  line-height: 3vh;
+}
+
+ul.rule hr {
+  margin-top: -1vh;
+}
+
+
